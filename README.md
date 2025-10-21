@@ -58,7 +58,6 @@ The application will load with some generated sample data.
 
 Usage Guide 
 The application is split into three main tabs:
-
 1. Dashboard Tab
 Summary Cards: Displays the current month's financial snapshot.
 
@@ -67,7 +66,6 @@ Monthly Chart: Shows the income and expense trend over the last 6 months.
 Category Chart: Shows a breakdown of the current month's expenses.
 
 Recent Transactions: Lists the 5 most recent transactions.
-
 2. Transactions Tab
 Filter & Sort: Use the dropdowns to filter transactions by Income, Expense, and Category.
 
@@ -76,7 +74,6 @@ Add Transaction: Click "Add Transaction" to log a new entry (income or expense).
 Edit/Delete: Use the actions column to modify or remove existing transactions.
 
 Export CSV: Click "Export CSV" to download the currently filtered list of transactions.
-
 3. Budget Tab
 Set Budget: Click "Set Budget" to allocate a budget amount for an expense category for a specific month. The application will warn and update if a budget already exists for that category/month.
 
@@ -92,4 +89,5 @@ Over budget: Spending has exceeded the budgeted amount.
 
 Code Structure 
 The core application logic resides in index.js. Key functions include:
+
 
